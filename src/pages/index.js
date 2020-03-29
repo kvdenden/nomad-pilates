@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
   const { logo, avatar } = data
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Nomad Pilates" />
       <h1>
         <Image
           fluid={logo.childImageSharp.fluid}
