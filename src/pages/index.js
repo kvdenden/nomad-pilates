@@ -50,6 +50,16 @@ const IndexPage = ({ data }) => {
           Your experience, your process - it takes place within you. We carry
           all that we need within us; the environment is merely a catalyst.
         </p>
+        <p>
+          <a
+            href="mailto:julie@nomadpilates.online"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
+            Get in touch
+          </a>
+        </p>
       </div>
       <div id="why-pilates">
         <h3>Why Pilates?</h3>

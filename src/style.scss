@@ -21,6 +21,23 @@ h2.subheader {
   color: #0faaab;
 }
 
+.button {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #0faaab;
+  color: #ede9e5;
+  padding: 1rem 2rem;
+  transition: 0.5s all;
+  border-radius: 0.5rem;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken(#0faaab, 10%);
+    color: white;
+  }
+}
+
 .lead {
   margin: 4rem 0;
   font-size: 1.25rem;
